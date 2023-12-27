@@ -5,7 +5,7 @@ import CircularProgressBar from './CircularProgressBar';
 const App = () => {
   return (
     <div className="main">
-      <h1>Sentimental Analysis</h1>
+      <h1>Sentiment Analysis</h1>
       <CircularProgressBar />
     </div>
   );
