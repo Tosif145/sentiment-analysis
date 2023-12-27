@@ -1,0 +1,128 @@
+body{
+    display: flex;
+  
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+/* Button  */
+
+.run-button {
+  background-color: #0078d0;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.run-button:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+.run-button:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .run-button {
+    padding: 16px 48px;
+  }
+}
+
+.main h1  {
+
+  font-weight: 600;
+  background-image: linear-gradient(to left, #422e7a, #766488);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-family: "Montserrat-Black", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+/* CircularProgressBar.css */
+
+.content{ 
+   color: #264ba9; 
+   font-family: 'Open Sans', sans-serif; 
+   font-size: 34px; 
+   font-weight: 300; 
+   line-height: 40px; 
+   margin: 0 0 16px; 
+  }
+ .circular-progress-container span {
+      color: red;
+  }
+
+/* Style for the container div */
+.circular-progress-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  /* Style for the circular progress bar wrapper div */
+  .circular-progress-wrapper {
+    width: 150px; /* Adjust the width as needed */
+    margin: auto;
+  }
+  
+  /* Style for the circular progress bar itself */
+  .circular-progress-bar {
+    /* You can customize the styles for the circular progress bar here */
+    margin-bottom: 70px;
+    margin-top: 50px;
+  }
+  
+  /* Style for the button */
+  .circular-progress-button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  /* Style for the error message */
+  .circular-progress-error {
+    color: red;
+    margin-top: 5px;
+  }
+  

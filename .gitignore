@@ -1,0 +1,22 @@
+# .gitignore
+
+# Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+
+# Flask app specific
+*.db
+*.log
+instance/
+.vscode/
+
+# React-related files
+node_modules/
+build/
+.DS_Store
+.env
+yarn-error.log
