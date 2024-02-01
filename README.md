@@ -17,11 +17,12 @@ Ensure you have the following tools installed:
    ```bash
    cd flask-app
    pip install -r requirements.txt
+   ```
    
 ### Run the Flask app:
 ```bash
     python app.py
-
+```
 
 ### React App
 - Navigate to the react-app directory.
@@ -29,11 +30,12 @@ Ensure you have the following tools installed:
   ```bash
       cd react-app
       npm install
-
+  ```
 
 ## Start the React app:
 ```bash
     npm start
+```
 - Open the React app in your browser (usually at http://localhost:3000).
 - Click the "Run Sentiment Analysis" button to trigger the sentiment analysis process.
 ## Circular Progress Bar
