@@ -18,7 +18,22 @@ Ensure you have the following tools installed:
    cd flask-app
    pip install -r requirements.txt
 # Run the Flask app:
-- python app.py
+```bash
+    python app.py
 ## React App
 - Navigate to the react-app directory.
 - Install dependencies:
+  ```bash
+      cd react-app
+      npm install
+## Start the React app:
+```bash
+    npm start
+- Open the React app in your browser (usually at http://localhost:3000).
+- Click the "Run Sentiment Analysis" button to trigger the sentiment analysis process.
+## Circular Progress Bar
+The React app includes a Circular Progress Bar component located in CircularProgressBar.js. This component fetches sentiment analysis results from the Flask API.
+
+Customization
+You can customize the circular progress bar's appearance and behavior by modifying the CSS in the CircularProgressBar.css file.
+
