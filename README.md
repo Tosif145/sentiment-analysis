@@ -17,15 +17,20 @@ Ensure you have the following tools installed:
    ```bash
    cd flask-app
    pip install -r requirements.txt
-# Run the Flask app:
+   
+### Run the Flask app:
 ```bash
     python app.py
-## React App
+
+
+### React App
 - Navigate to the react-app directory.
 - Install dependencies:
   ```bash
       cd react-app
       npm install
+
+
 ## Start the React app:
 ```bash
     npm start
